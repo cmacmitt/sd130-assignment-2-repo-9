@@ -2,6 +2,8 @@ const {src, dest, series, parallel} = require('gulp');
 const jsmin = require("gulp-jsmin");
 const del = require('del');
 
+// This task is supposed to clean things
+
 function cleanTask() {
   return del('dist');
 }
