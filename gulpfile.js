@@ -1,4 +1,5 @@
 const {src, dest, series, parallel} = require('gulp');
+const jsmin = require("gulp-jsmin");
 const del = require('del');
 
 function cleanTask() {
@@ -12,6 +13,7 @@ function pagesTask() {
 
 function scriptsTask() {
   return src('src/scripts/**/*.js')
+    .pipe(jsmin())
     .pipe(dest('dist/js'));
 }
 
