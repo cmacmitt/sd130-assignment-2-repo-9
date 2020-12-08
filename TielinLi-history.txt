@@ -1,0 +1,34 @@
+1  history
+    2  mkdir assignment
+    3  cd assignment
+    4  git clone https://github.com/ltlkong/sd130-assignment-2-repo-9.git
+    5  ls
+    6  git sd130-assignment-2-repo-9/
+    7  cd sd130-assignment-2-repo-9/
+    8  git switch -C issue-2
+    9  code .
+   10  git add .
+   11  git diff
+   12  git status
+   13  git commit -m "add name when clicking add name button"
+   14  npm init
+   15  code .
+   16  npm i
+   17  npm i -save-dev gulp-jsmin
+   18  code .
+   19  git status
+   20  git commit -am "add js minify and edit in gulpfile"
+   21  gulp
+   22  code .
+   23  git switch main
+   24  git merge issue-2
+   25  git status
+   26  git push
+   27  git pull
+   28  code .
+   29  git push
+   30  code .
+   31  git status
+   32  git push
+   33  code .
+   34  history
