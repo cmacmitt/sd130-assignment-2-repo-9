@@ -1,6 +1,9 @@
 const {src, dest, series, parallel} = require('gulp');
+const jsmin = require("gulp-jsmin");
 const del = require('del');
 const concat = require('gulp-concat');
+// This task is supposed to clean things
+
 // This task is supposed to clean things
 
 function cleanTask() {
@@ -14,6 +17,7 @@ function pagesTask() {
 
 function scriptsTask() {
   return src('src/scripts/**/*.js')
+    .pipe(jsmin())
     .pipe(dest('dist/js'));
 }
 
