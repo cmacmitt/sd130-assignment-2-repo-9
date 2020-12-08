@@ -2,6 +2,8 @@ const {src, dest, series, parallel} = require('gulp');
 const jsmin = require("gulp-jsmin");
 const del = require('del');
 const concat = require('gulp-concat');
+const imagemin = require('gulp-imagemin');
+
 // This task is supposed to clean things
 
 // This task is supposed to clean things
@@ -29,6 +31,7 @@ function stylesTask() {
 
 function imagesTask() {
   return src('src/images/**/*')
+    .pipe(imagemin())
     .pipe(dest('dist/images'))
 }
 
