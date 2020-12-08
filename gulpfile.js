@@ -1,6 +1,8 @@
 const {src, dest, series, parallel} = require('gulp');
 const jsmin = require("gulp-jsmin");
 const del = require('del');
+const concat = require('gulp-concat');
+// This task is supposed to clean things
 
 // This task is supposed to clean things
 
@@ -21,6 +23,7 @@ function scriptsTask() {
 
 function stylesTask() {
   return src('src/styles/**/*.css')
+    .pipe(concat('all.css'))
     .pipe(dest('dist/css'))
 }
 

@@ -12,6 +12,7 @@
   "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",
+
     "gulp-jsmin": "^0.1.5"
   },
   "repository": {
@@ -22,4 +23,7 @@
     "url": "https://github.com/ltlkong/sd130-assignment-2-repo-9/issues"
   },
   "homepage": "https://github.com/ltlkong/sd130-assignment-2-repo-9#readme"
+  
+    "gulp-concat": "^2.6.1"
+  }
 }
