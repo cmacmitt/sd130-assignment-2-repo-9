@@ -1,29 +1,27 @@
 {
-  "name": "sd130-a2",
-  "version": "1",
-  "description": "1. Clone this repository to a local directory. 2. Create a new branch, called \"name-adding-feature,\" and checkout that branch. 3. Add to the main.js script a method that adds your name (feel free to hard-code your name into the script) to the unordered list element on the page. Commit this change when you are satisfied that it works.",
+  "name": "sd130-assignment-2-repo-9",
+  "version": "1.0.0",
+  "description": "This is an in-class, individual assignment. There is no need to submit anything to myLearning. You will be graded based on your Git and Bash histories.",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Tielin",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-jsmin": "^0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ltlkong/sd130-assignment-2-repo-9.git"
+    "url": "git+https://github.com/cmacmitt/sd130-assignment-2-repo-9.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ltlkong/sd130-assignment-2-repo-9/issues"
+    "url": "https://github.com/cmacmitt/sd130-assignment-2-repo-9/issues"
   },
-  "homepage": "https://github.com/ltlkong/sd130-assignment-2-repo-9#readme",
-  "dependencies": {
-    "gulp-imagemin": "^7.1.0"
-  }
+  "homepage": "https://github.com/cmacmitt/sd130-assignment-2-repo-9#readme"
 }
