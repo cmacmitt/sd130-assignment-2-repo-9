@@ -1,0 +1,38 @@
+    3  history
+    4  history
+    5  git clone https://github.com/qingmingli001/sd130-assignment-2-repo-9.git
+    6  li -la
+    7  ls -la
+    8  cd "SD"SD""
+    9  cd 'sd130-assignment-2-repo-9'
+   10  git clone https://github.com/qingmingli001/sd130-assignment-2-repo-9.git
+   11  git clone https://github.com/qingmingli001/sd130-assignment-2-repo-9.git
+   12  cd 'sd130-assignment-2-repo-9'
+   13  ls
+   14  git branch
+   15  git pull
+   16  git remote
+   17  ls -la
+   18  cd .git
+   19  ls
+   20  code config
+   21  cd ..
+   22  ls
+   23  git pull
+   24  git branch
+   25  git checkout -b issue-1
+   26  ls
+   27  code .
+   28  touch src/styles/z-styles.css
+   29  code src/styles/z-styles.css
+   30  git status
+   31  git commit -ma "finish the color and font change"
+   32  git add .
+   33  git commit -m "finish the color and font change"
+   34  git checkout main
+   35  git branch
+   36  git merge issue-1
+   37  git status
+   38  git push
+   39  git pull
+   40  history
